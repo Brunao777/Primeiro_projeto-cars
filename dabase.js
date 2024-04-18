@@ -1,0 +1,51 @@
+const carros = [
+  {
+    id: 1,
+    imagem: './img/supra.jpg',
+    marca: 'Toyota',
+    modelo: 'Supra',
+    ano: 1998,
+  },
+{
+  id: 2,
+  imagem: './img/skyline.webp',
+  marca: 'Nissan',
+  modelo: 'Skyline',
+  ano: 1997,
+},
+{
+  id: 3,
+  imagem: './img/rx7.jpg',
+  marca: 'Mazda',
+  modelo: 'RX7',
+  ano: 1999,
+},
+{
+  id: 4,
+  imagem: './img/impreza.jpg',
+  marca: 'Subaru',
+  modelo: 'Impreza',
+  ano: 1996,
+},
+{
+  id: 5,
+  imagem: './img/lancer.webp',
+  marca: 'Mitsubish',
+  modelo: 'Lancer',
+  ano: 2008,
+ },
+{
+  id: 6,
+  imagem: './img/nsx.jpg',
+  marca: 'Acura',
+  modelo: 'NSX',
+  ano: 1991,
+},
+{
+  id: 7,
+  imagem: './img/civic.jpg',
+  marca: 'Honda',
+  modelo: 'Civic',
+  ano: 1998,
+},
+];

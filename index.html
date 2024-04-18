@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kenzie Cars</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="dabase.js"></script>
+  <script defer src="script.js"></script>
+</head>
+<body>
+  
+ <header>
+  <img src="./img/logo.webp" alt="Logo">
+  <p>cars</p>
+ </header>
+ <main>
+  <section>
+    <div class="listagem">
+      <h2>Lista dos carros</h2>
+      <ul id="listaProdutos">
+        <li>
+          <img src="./img/supra.jpg" alt="Supra">
+          <p>Toyota supra ano:1998</p>
+          <button id="car_1" class="botaoProduto">Favoritar</button>
+        </li>
+        <li>
+          <img src="./img/skyline.webp" alt="Skyline">
+          <p>Nissan skyline ano:1997</p>
+          <button id="car_2" class="botaoProduto">Favoritar</button>
+        </li>
+        <li>
+          <img src="./img/supra.jpg" alt="Supra">
+          <p>Mazda RX7 ano:1999</p>
+          <button id="car_3" class="botaoProduto">Favoritar</button>
+        </li>
+        <li>
+          <img src="./img/impreza.jpg" alt="Impreza">
+          <p>Subaru impreza ano:1996</p>
+          <button id="car_4" class="botaoProduto">Favoritar</button>
+        </li>
+        <li>
+          <img src="./img/lancer.webp" alt="Lancer">
+          <p>Mitsubish lancer ano:2008</p>
+          <button id="car_5" class="botaoProduto">Favoritar</button>
+        </li>
+        <li>
+          <img src="./img/nsx.jpg" alt="NSX">
+          <p>Acura nsx ano:1991</p>
+          <button id="car_6" class="botaoProduto">Favoritar</button>
+        </li>
+        <li>
+          <img src="./img/civic.jpg" alt="Civic">
+          <p>Honda civic ano:1998</p>
+          <button id="car_7" class="botaoProduto">Favoritar</button>
+        </li>
+      </ul>
+    </div>
+    <div class="listagem">
+      <h2>Carros favoritos<small id="favQuantidade">(0)</small></h2>
+      <ul id="listaFavoritos"></ul>
+    </div>
+  </section>
+ </main>
+</body>
+</html>
